@@ -1,0 +1,640 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.header-container{
+    width: 100%;
+    height: 200px;
+    background-color: beige;
+}
+.left-header{
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-top: 20px;
+}
+.righr-header{
+    float: right;
+    width: 35%;
+    text-align: center;
+    margin-top: 20px;
+}
+.heading{
+    font-family: monospace;
+    font-size: 40px;
+    color: brown;
+}
+.sub-header{
+    font-family:'Tangerine';
+    font-size: 35px;
+}
+.right-heading{
+    font-family: monospace;
+    font-weight: 300;
+    color: brown;
+    font-size: 30px;
+}
+.right-sub{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+.clear{
+    clear: both;
+}
+.mainup-header{
+    width: 100%;
+    height: 40px;
+    background-color:#3f3f3f;
+}
+.mainup-header li {
+    display: inline-block;
+    color: blanchedalmond;
+
+}
+.mainup-subheader{
+    width: 19.5%;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5px;
+    border-right: 1px solid white;
+    height: 100%;
+}
+li:hover{
+
+    color:darkorange
+}
+
+.moto{
+    height: auto;
+    width: 100%;
+    background-color:white;
+    font-size: 50px;
+    font-family: 'Tangerine';
+    text-transform: lowercase;
+    text-align: center;
+}
+.pun{
+    font-size: 100px;
+}
+.main2-down{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    background-color: #ededed;
+
+    
+}
+.part1{
+    width: 33.3%;
+    float: left;
+    margin: auto;
+    border-right: 1px solid black;
+    
+}
+.part2{
+    width: 33.3%;
+    float: left;
+    margin: auto;
+    border-right: 1px solid black;
+}
+.part3{
+    width: 33%;
+    float: left;
+    margin: auto;
+    
+}
+.left-part1{
+    font-size: 60px;
+    display: inline-block;
+    color:grey
+}
+.left-part2{
+    font-size: 60px;
+    display: inline-block;
+    color:grey
+
+}
+.left-part3{
+    font-size: 60px;
+    display: inline-block;
+    color: grey
+
+}
+.right-part1 {
+    line-height: 30px;
+}
+.right-part2{
+    line-height: 30px;
+
+}
+.right-part3{
+    line-height: 30px;
+
+}
+.services{
+    font-family: cursive;
+    color: olive;
+    font-size: 25px;
+}
+/* .part1:hover{
+    background-color: lightsteelblue;
+}
+.part2:hover{
+    background-color: lightsteelblue;
+}
+.part3:hover{
+    background-color: lightsteelblue;
+} */
+.option{
+color: maroon;
+}
+.option:hover{
+    color: blue;
+}
+.main-container3{
+    height: 600px;
+    background-color:#f3f3f3;
+}
+
+.main-left3{
+
+    width: 70%;
+    float: left;
+}
+.main-right3{
+    width: 30%;
+    float: right;
+}
+.different-hotels{
+    width: auto;
+    height: 170px;
+    margin: 0 auto;
+
+}
+.first-hotel{
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+.sec-hotel{
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+.third-hotel{
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+.hotel-head{
+    font-size: 32px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 100;
+    color: #995c00;
+    height: 50px;
+    width: 70%;
+    border-bottom: 1px dashed #6a6a6a;
+    margin: 25px;
+}
+.caps{
+    font-size: 25px;
+    color: #6a6a6a;
+    font-family: cursive;
+    font-weight: 300;
+    margin: 25px;
+
+}
+.caps-des{
+    font-size: 15px;
+    color: #6a6a6a;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+    line-height: 20px;
+
+}
+.contdial{
+    font-size: 25px;
+    margin: 50px;
+    color: #995c00;
+}
+.rooms-head{
+    color:#626d6d;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 200;
+    margin: 6px;
+    font-size: 22px;
+}
+.rooms-des{
+    margin: 10px;
+    color: lightslategrey;
+
+}
+.special-head{
+    font-size: 30px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 100;
+    color:#cc0000;
+    height: 50px;
+    width: auto;
+    margin: 25px;
+    border-bottom: 1px dashed #6a6a6a;
+
+}
+.discount-img{
+    margin: 30px;
+    width: 70%;
+    height:150px ;
+}
+.main-right3{
+    width: 30%;
+    height: 300px;
+}
+.super-dis{
+    font-size: 25px;
+    color: lightslategrey;
+}
+.super-des{
+    font-size: 18px;
+    color: lightsteelblue;
+}
+.super-btn{
+    border: 1px solid grey;
+    width: 30%;
+    text-align: center;
+    cursor: pointer;
+}
+.super-btn:hover{
+    background-color: black;
+    color: blanchedalmond;
+}
+.boximg:hover{
+    box-shadow:10px  10px 5px grey;
+}
+.footer{
+    height: 250px;
+    width: 100%;
+    float: left;
+    font-size: 30px;
+}
+.footer-lst:hover
+{
+    color:blue;
+    background-color:none;
+    
+}
+.un-list{
+    width: 30%;
+    margin: 0 10%;
+    list-style: none;
+}
+/* .un-list:hover{
+    background-color: lightsteelblue;
+} */
+.last-para{
+    text-align: center;
+    font-size: 25px;
+    background-color: whitesmoke;
+    color: lightslategrey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.second-page{
+    width: 100%;
+    height: 500px;
+    background-color:#f1f1f1;
+}
+.second-left{
+    height: auto;
+    width: 50%;
+    float: left;
+    margin: 3%;
+}
+.second-right{
+    height: auto;
+    width: 35%;
+    float: right;
+    margin: 3%;
+
+}
+.left-left{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+.right-left{
+    width: 40%;
+    height: auto;
+    float: right;
+}
+.abt-htl{
+    padding: 5px;
+    font-size: 35px;
+    font-family: monospace;
+    color: gray;
+    font-weight: 100;
+}
+.secp-img{
+    padding: 5px;
+
+}
+.secp-p2{
+   padding: 5px;
+   font-size: 15px;
+   color:lightslategray;
+   
+}
+.secp-p{
+    padding: 5px;
+    font-size: 20px;
+    font-family: monospace;
+    color: darkslategray;
+}
+.secp-btn{
+    padding: 5px;
+    font-size: 15px;
+    color: darkslategray;
+}
+.secp-btn:hover{
+    color: blue;
+}
+.secp-h{
+    font-size: 30px;
+    font-weight: 100;
+    font-family: serif;
+    color: dimgrey;
+    padding: 5px;
+}
+.secp-p3{
+    color: lightslategrey;
+    font-size: 15px;
+    padding: 5px;
+    font-weight: 100;
+    font-family: monospace;
+}
+.secp-h2{
+    padding: 5px;
+    font-family: serif;
+    color: darkslategray;
+    font-size: 20px;
+}
+.secp-h2:hover{
+    color: darkturquoise;
+}
+.secp-h3{
+   font-family: serif;
+   font-size: 15px;
+   border: black;
+}
+.secp-h3:hover{
+    color: brown;
+}
+.secp-h4{
+font-size: 30px;
+    font-weight: 100;
+    font-family: serif;
+    color: dimgrey;
+    padding: 5px;
+}
+.emoji-s{
+    font-size: 60px;
+}
+.emoji-des{
+    font-size: 15px;
+    color:black;
+}
+.thirdpage{
+    background-color:#ededed ;
+    width: 100%;
+    height: 500px;
+}
+.third-left{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin: 3%;
+}
+.third-right{
+   width: 40%;
+   height: auto;
+   float: right;
+   
+}
+.nums{
+    width: 8%;
+    float: left;
+    font-size: 22px;
+    color: darkslategrey;
+}
+.thridp-con{
+    width: 88%;
+    float: right;
+}
+.thrp-l{
+    margin: 1%;
+}
+.third-h1{
+    color: darkslategrey;
+    font-weight: 100;
+    font-size: 30px;
+    font-family: monospace;
+
+}
+.service-t{
+    padding: 2px;
+    font-family: monospace;
+    font-weight: 100;
+    color: dimgray;
+    font-size: 35px;
+    padding-bottom: 7px;
+}
+.third-p1{
+    color: lightslategrey;
+    font-size: 12px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.third-h2{
+    padding: 5%;
+    font-family: serif;
+    font-weight: 100;
+    color: dimgray;
+    font-size: 35px;
+    
+}
+.third-p2{
+    font-size: 25px;
+    color: dimgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.third-sp{
+    padding: 2%;
+    color: firebrick;
+    font-size: 30px;
+    
+}
+.third-p2:hover{
+    color: brown;
+}
+.third-last{
+    margin: 5%;
+}
+.fourth-page{
+    width: 100%;
+    height: auto;
+    background-color:darkslategray;
+}
+.fourth-lft{
+    height: auto;
+    width: 100%;
+    margin: 0 5%;
+}
+.fourth-right{
+    height: auto;
+    width: 100%;
+    margin: 0 5% ;
+}
+.first-pic{
+    width: 30%;
+    height: auto;
+    float: left;
+}
+.snd-pic{
+    width: 30%;
+    height: auto;
+    float: left;
+}
+.trd-pic{
+    width: 30%;
+    height: auto;
+    float: left;
+}
+.frth-pic{
+    width: 30%;
+    height: auto;
+    float: left;
+}
+.fivth-pic{
+    width: 30%;
+    height: auto;
+    float: left;
+}
+.sixth-pic{
+    width: 30%;
+    height: auto;
+    float: left;
+}
+.fourth-h{
+    padding: 2%;
+    color: darkslategrey;
+    font-family: sans-serif;
+    background-color: white;
+}
+.fourth-pics{
+    font-size: 20px;
+    color: darkslategray;
+    font-weight: 100;
+    font-family: monospace;
+}
+.fourth-des{
+    font-size: 12px;
+    color: lightslategrey;
+    font-family: serif;
+}
+.fourth-btn{
+    font-size: 17px;
+    color: darkturquoise;
+    font-family: sans-serif;
+    margin: 3%;
+}
+.fifth-lft{
+    width: 30%;
+    height: auto;
+    float: left;
+    margin: 3%;
+}
+.fifth-right{
+    width: 50%;
+    float: right;
+    height: auto;
+    margin: 3%;
+    background-color: lightslategrey;
+    text-align: center;
+}
+.fifth-page{
+    background-color: #AFAFAF;
+    width: 100%;
+    height: auto;
+}
+.creation{
+    width: 50%;
+    margin: 0 , auto;
+    background-color: grey;
+
+}
+.fname,.lname  {
+    margin: 8px;
+}
+.identity, .identity2  {
+    margin: 10px;
+}
+.confrom ,.conform2{
+    margin: 10px;
+}
+.sixth-h{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+}
+.creation{
+    margin: 0 25%;
+    text-align: center;
+    
+
+}
+.uname,.pw,.in,.up{
+    margin: 1%;
+    width: 40%;
+
+}
+.final{
+    width: 100%;
+    text-align: center;
+}
+.seventh-f{
+    margin: 1%;
+}
+.fifth-l-h{
+    font-family: monospace;
+    font-weight: 100;
+    color: darkslategrey;
+    font-size: 25px;
+
+}
+.all-labels{
+    font-family: monospace;
+    color: black;
+    font-weight:1000;
+    font-size: 18px;
+}
+.seclass{
+    width: 40%;
+    height: 25px;
+}
+.hotel-btn{
+    width: 15%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 30%;
+    color:black;
+    text-align: center;
+}
+.hotel-btn:hover{
+    background-color: black;
+    color: blanchedalmond;
+}
+.seclass:focus{
+    background-color: black;
+    color: wheat;
+}
+.lastcls{
+    width: 20%;
+    height: 25px;
+}
